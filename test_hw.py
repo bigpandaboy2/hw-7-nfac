@@ -97,12 +97,12 @@ class TestHomeWork7(unittest.TestCase):
     Test exercise-8
     """
 
-    # def test_collatz_sequence_length(self):
-    #     self.assertEqual(collatz_sequence_length(6), 9)
-    #     self.assertEqual(collatz_sequence_length(27), 112)
-    #     self.assertEqual(collatz_sequence_length(1), 1)
-    #     self.assertEqual(collatz_sequence_length(2), 2)
-    #     self.assertEqual(collatz_sequence_length(10000), 30)
+    def test_collatz_sequence_length(self):
+        self.assertEqual(collatz_sequence_length(6), 9)
+        self.assertEqual(collatz_sequence_length(27), 112)
+        self.assertEqual(collatz_sequence_length(1), 1)
+        self.assertEqual(collatz_sequence_length(2), 2)
+        self.assertEqual(collatz_sequence_length(10000), 30)
 
     """
     Test exercise-9
